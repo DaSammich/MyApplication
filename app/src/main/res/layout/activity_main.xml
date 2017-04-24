@@ -30,10 +30,11 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
         android:duplicateParentState="true"
+        android:onClick="sendMessage"
         android:text="@string/button_send"
         android:textIsSelectable="true"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText"
-        android:layout_marginRight="16dp"
         app:layout_constraintRight_toRightOf="parent" />
 </android.support.constraint.ConstraintLayout>
